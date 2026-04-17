@@ -114,4 +114,10 @@ Feature: success
     Then Click to element "closebutton"
     Then Wait 2 seconds
 
+  @Wait
+  Scenario: Wait
+    Given Go to "https://www.amazon.com.tr/"
+    Then Wait 1020 seconds
+    Then Click to element "random"
+
 
