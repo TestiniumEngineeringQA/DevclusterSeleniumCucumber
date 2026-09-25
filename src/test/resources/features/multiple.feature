@@ -1,3 +1,5 @@
+Feature: success
+
 @e3tKsHRUeGwr
 Scenario: e3tKsHRUeGwr
 Given Go to "https://www.amazon.com.tr/"
